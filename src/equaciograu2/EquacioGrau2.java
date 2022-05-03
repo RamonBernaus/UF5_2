@@ -42,9 +42,9 @@ public class EquacioGrau2 {
             NoArrelsRealsException exept = new NoArrelsRealsException();
             throw exept;
         } else {
-getsol1();
-getsol2();
-}
+            getsol1();
+            getsol2();
+        }
         return str;
     }
 
@@ -58,7 +58,7 @@ getsol2();
     public class NoArrelsRealsException extends Exception {
 
         NoArrelsRealsException() {
-            super("Error la arrel mo es una arrel real");
+            super("Error no s-ha trobat la solucio de l'arrel");
         }
     }
 }
